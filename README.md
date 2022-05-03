@@ -31,7 +31,7 @@
 
 ```
 1. pip3 install .
-2. Do python3 src/atomic.py (in the cmd in the Atomic folder).
+2. Do python3 src/traper.py (in the cmd in the Atomic folder).
 ```
 
 <br/>
