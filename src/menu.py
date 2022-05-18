@@ -1,4 +1,5 @@
 from tkinter import *
+from pathlib import Path
 
 
 class Menu():
@@ -47,4 +48,4 @@ class Menu():
         self.atomic.mainloop()
 
     def getIcon(self):
-        return PhotoImage(file = "src\\assets\\iconTraper.png")
+        return PhotoImage(file = f"{Path(__file__).parent.absolute()}\\assets\\iconTraper.png")
