@@ -27,5 +27,5 @@ class ThirdPerson(Cheat):
 
     def run(self):
         if (self.is_toggle):
-            while not self.wait(0.1):
+            while not self.wait(0.05):
                 self.third_person()
