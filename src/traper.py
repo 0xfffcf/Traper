@@ -8,7 +8,7 @@ from cheats.multi_hack import multi_hack
 def __traper_banner():
     print(Fade.Horizontal(Colors.blue_to_purple,
     """
-                                                   ╔╦╗╦═╗╔═╗╔═╗╔═╗╦═╗
+                                                    ╔╦╗╦═╗╔═╗╔═╗╔═╗╦═╗
                                                     ║ ╠╦╝╠═╣╠═╝║╣ ╠╦╝
                                                     ╩ ╩╚═╩ ╩╩  ╚═╝╩╚═
     """
