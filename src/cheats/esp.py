@@ -8,7 +8,7 @@ class GlowEsp(Cheat):
     """Extra-Sensory Perception that displays a glow on a player."""
     def run(self):
         if (self.is_toggle):
-            while not self.wait(0.01):
+            while not self.wait(0.05):
                 client.offset.get_esp_offset()
                 glow_manager = client.process.read_int(client.client + client.offset.DW_GLOW_OBJECT_MANAGER)
 
